@@ -11,5 +11,3 @@ def sendData():
 @app.route('/<url>')
 def convert(url):
     return jsonify({"data":url})
-
-app.run('127.0.0.1',8000)
